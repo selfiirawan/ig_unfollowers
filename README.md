@@ -1,4 +1,4 @@
-# Instagram Unfollowers Detector
+# Instagram Unfollowers Scanner
 
 A Python tool that helps you find out which Instagram accounts are not following you back by analyzing your exported HTML data from Instagram.
 
@@ -34,3 +34,22 @@ Make sure you have Python 3 installed, then run:
 
 ```bash
 python3 main.py -i followings.html -e followers.html 
+```
+---
+
+## 📂  Required File 
+- `followings.html`
+- `followers.html`
+
+---
+
+## ⚙️ Requirements
+- Python 3.x
+> No external libraries required.
+
+---
+
+## 🙏 Acknowledgement
+
+This project was originally inspired by [kk10128/igFollowers](https://github.com/kk10128/igFollowers.git).  
+Significant changes and improvements have been made to fit my own use case.
